@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "express": "^4.19.2"
-  }
+  },
+  "name": "stage1bak",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
