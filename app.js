@@ -4,7 +4,8 @@ const app = express();
 
 app.get("/api/hello", (req, res) => {
     try {
-        let visitor_name = req.query.visitor_name;
+        // let ip = req.ip;
+        let visitor_name = req.query.visitor_name || "Mark";
         const greeting = {
         "client_ip": "127.0.0.1",
         "location": "Abuja",
