@@ -1,11 +1,13 @@
 {
   "dependencies": {
-    "express": "^4.19.2"
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
   },
   "name": "stage1bak",
   "version": "1.0.0",
   "main": "app.js",
-  "devDependencies": {},
+  "type": "module",
   "scripts": {
     "start": "node app.js"
   },
